@@ -18,6 +18,11 @@
   .logo {
     width: 250px;
   }
+  @media screen and (min-width:750px) {
+    .logo {
+        width: 350px;
+      }
+  }
   .icon-button {
       background-color: transparent;
       width:50px;
