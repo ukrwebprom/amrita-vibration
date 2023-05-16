@@ -33,18 +33,7 @@ export const Main = () => {
       {isModal && (
         <Modal>
           <div className="modal">
-              <Oval
-                height={80}
-                width={80}
-                color="#C478FF"
-                wrapperStyle={{}}
-                wrapperClass=""
-                visible={!isLoaded}
-                ariaLabel="oval-loading"
-                secondaryColor="#EFDBFE"
-                strokeWidth={1}
-                strokeWidthSecondary={1}
-              />
+              
             <video
               src={videoMessage}
               autoPlay
@@ -52,6 +41,18 @@ export const Main = () => {
               onLoadedData={() => setIsLoaded(true)}
               onEnded={toggleModal}
             />
+            <Oval
+                height={80}
+                width={80}
+                color="#C478FF"
+                wrapperStyle={{}}
+                wrapperClass="loaderwrapper"
+                visible={!isLoaded}
+                ariaLabel="oval-loading"
+                secondaryColor="#EFDBFE"
+                strokeWidth={1}
+                strokeWidthSecondary={1}
+              />
             <button type="button" className="close-btn" onClick={toggleModal}>
               <TfiClose size={20} />
             </button>
