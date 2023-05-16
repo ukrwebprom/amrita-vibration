@@ -1,13 +1,13 @@
 import logo from './images/logo.svg';
 import './App.css';
 import { Main } from './components/Main/Main';
+import { ContactButtons } from './components/ContactButtons/ContactButtons';
 
 function App() {
   return (
     <div className="App">
-
-{/*         <img src={logo} className="App-logo" alt="logo" /> */}
     <Main />
+    <ContactButtons />
     </div>
   );
 }
