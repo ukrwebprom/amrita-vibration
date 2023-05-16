@@ -61,3 +61,6 @@
     border:0;
     background:transparent;
   }
+  .loaderwrapper{
+    position: absolute;
+  }
