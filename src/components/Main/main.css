@@ -1,0 +1,58 @@
+.video-back {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity: 0.3;
+  }
+  
+  .main-content {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .logo {
+    width: 250px;
+  }
+  .icon-button {
+      background-color: transparent;
+      width:50px;
+      height:50px;
+      border-radius: 50%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #C478FF;
+      color:#C478FF;
+      padding-left:4px;
+      margin-bottom: 30px;
+  }
+  .main-content-text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    font-weight: 300;
+  }
+  .text-first {
+    letter-spacing: 0.9em;
+  }
+  .text-second {
+    letter-spacing: 0.1em;
+  }
+
+  .video-message {
+    width:80%;
+    max-width: 450px;
+  }
+  .close-btn {
+    position: absolute;
+    top:10px;
+    right:10px;
+    border:0;
+    background:transparent;
+  }
