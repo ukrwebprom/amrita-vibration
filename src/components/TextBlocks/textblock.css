@@ -1,0 +1,54 @@
+.text-blocks {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .text-blocks {
+    flex-direction: row;
+  }
+}
+
+.textblock-part {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textblock-duration {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #C478FF;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.textblock-title {
+  font-size: 10vw;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 0.9em;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .textblock-title {
+    font-size: 64px;
+  }
+}
+
+.textblock-list {
+  list-style: none;
+  text-align: right;
+}
+.textblock-list li {
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 1px dotted #C478FF;
+  padding-bottom: 5px;
+}/*# sourceMappingURL=textblock.css.map */
