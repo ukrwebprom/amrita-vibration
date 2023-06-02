@@ -5,7 +5,7 @@ export const TextBlockOne = () => {
   return (
     <div className="container">
     <div className="text-blocks">
-      <div>
+      <div className="text-block">
         <div className="textblock-part">
           <p>Часть 1</p>
           <div className="textblock-duration">
@@ -28,7 +28,7 @@ export const TextBlockOne = () => {
           <li>Крии Голоса</li>
         </ul>
       </div>
-      <div>
+      <div className="text-block">
         <div className="textblock-part">
           <p>Часть 2</p>
           <div className="textblock-duration">

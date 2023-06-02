@@ -9,6 +9,12 @@
   }
 }
 
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .textblock-part {
   font-size: 12px;
   font-weight: 400;
@@ -16,6 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .textblock-duration {
@@ -29,7 +36,7 @@
 }
 
 .textblock-title {
-  font-size: 10vw;
+  font-size: 6vw;
   font-weight: 300;
   text-transform: uppercase;
   line-height: 0.9em;
@@ -37,13 +44,13 @@
 }
 @media screen and (min-width: 768px) {
   .textblock-title {
-    font-size: 64px;
+    font-size: 38px;
   }
 }
 
 .textblock-list {
   list-style: none;
-  text-align: right;
+  text-align: center;
 }
 .textblock-list li {
   font-weight: 400;
